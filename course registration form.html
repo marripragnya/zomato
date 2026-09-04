@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> course registration</title>
+</head>
+<body>
+    <h1>Course registration</h1>
+    <form action="thankyou.html">
+        <fieldset>
+            <legend>personal details</legend>
+            <table>
+                <tr>
+                    
+                    <td><label>Name</label></td>
+                    <td>  <input type="text" name="FN" placeholder="ex:pragna" size="16" required></td>
+                </tr>
+                <tr>
+                    <td><label>surname</label></td>
+                    <td><input type="text" name="SN" placeholder="ex raw" size="16" required></td>
+                </tr>
+                <tr>   
+                    <td> <label> mobile Number</label></td>
+                    <td>  <input type="tel" name="MB" placeholder="ex:9998777666" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" name="email" placeholder="ishu@email.com" required></td>
+                </tr>
+            </table>
+        <label>password</label>
+            
+        <input type="password" name="PS" required><br>
+
+        <label> conform password</label>
+        <input type="password" name="PS" required><br>
+        <label>DOB</label>
+        <input type="date" name="dob" required><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender" required>Female
+        <input type="radio" name="gender" required>Others<br>
+        <label>Select Country</label>
+        <select>
+            <option>INDIA</option>
+            <option>USA</option>
+        </select><br>
+        <label>upload Picture</label>
+        <input type ="file" name="file" ><br> 
+        <input type="reset" ><br>
+        <input type="submit" >
+        </fieldset>
+    </form>
+
+</body>
+</html>
