@@ -1,0 +1,33 @@
+.parent{
+    background-color:palevioletred;
+    width: 300px;
+    height: 300px;
+    animation: coding2 10s
+}
+@keyframes coding{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color:pink ;
+    }
+}
+@keyframes coding2{
+    0%{
+        background-color: grey;
+    }
+    25%{
+        background-color: purple;
+
+    }
+    50%{
+        background-color: lightcoral;
+    }
+    75%{
+        background-color: wheat;
+
+    }
+    100%{
+        background-color: lightseagreen;
+    }
+}
